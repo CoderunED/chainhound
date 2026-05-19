@@ -272,13 +272,6 @@ If ChainHound finds a CRITICAL path in your environment:
 - [ ] Slack / PagerDuty alerting integration
 - [ ] Trend analysis across scan history
 - [ ] Auto-remediation policy generation
-
----
-
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
-
 ---
 
 <p align="center">
