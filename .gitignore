@@ -1,0 +1,69 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# AWS credentials (never commit these)
+.aws/
+credentials
+*.pem
+*.key
+
+# Data files (contain sensitive IAM data)
+data/raw/
+data/normalized/
+data/graph.json
+data/findings.json
+data/findings_scored.json
+data/findings_merged.json
+data/paths.json
+data/narratives.json
+
+# Keep the data folder structure
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/normalized/.gitkeep
+
+# Node
+node_modules/
+ui-react/node_modules/
+ui-react/dist/
+ui-react/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# PDF exports
+*.pdf
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
